@@ -1,0 +1,98 @@
+/* 底部列表 */
+.footlist {
+    height: 394px;
+}
+
+/* 底部列表左边 */
+.footlist .footlist_left {
+    width: 960px;
+    height: 100%;
+    float: right;
+}
+
+/* 左边列表设置 */
+.footlist .footlist_left dl {
+    margin-top: 40px;
+    float: left;
+    width: 160px;
+    display: block;
+}
+
+.footlist .footlist_left dl dt {
+    margin-bottom: 26px;
+    font-size: 14px;
+    color: #424242;
+}
+
+.footlist .footlist_left dl dd {
+    font-size: 12px;
+    line-height: 28px;
+}
+
+.footlist .footlist_left dl a {
+    color: #757575;
+}
+
+/* 鼠标悬浮字体颜色改变 */
+.footlist .footlist_left dl a:hover {
+    color: #ff6700;
+}
+
+/* 底部列表右边 */
+.footlist .footlist_right {
+    width: 252px;
+    height: 84px;
+    float: right;
+    margin-top: 40px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+/* 电话字体设置 */
+.footlist .footlist_right .tel {
+    font-size: 22px;
+    color: #ff6700;
+}
+
+/* 时间字体设置 */
+.footlist .footlist_right .time {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+/* 人工客服盒子设置 */
+.footlist .footlist_right .footlist_box {
+    width: 118px;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 66px;
+    background: #fff;
+    border: 1px solid #ff6700;
+}
+
+/* 图标设置 */
+.footlist .footlist_right .footlist_box span {
+    font-size: 10px;
+    color: #ff6700;
+}
+
+.footlist .footlist_right .footlist_box a {
+    font-size: 12px;
+    color: #ff6700;
+    display: block;
+}
+
+/* 鼠标悬浮背景改变 */
+.footlist .footlist_right .footlist_box:hover {
+    background: #ff6700;
+}
+
+/* 鼠标悬浮图标颜色改变 */
+.footlist .footlist_right .footlist_box:hover span {
+    color: #fff;
+}
+
+/* 鼠标悬浮字体颜色改变 */
+.footlist .footlist_right .footlist_box:hover a {
+    color: #fff;
+}

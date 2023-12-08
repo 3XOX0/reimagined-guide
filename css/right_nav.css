@@ -1,0 +1,100 @@
+/* 右边固定导航栏 */
+.right_nav {
+    width: 84px;
+    height: 450x;
+    position: fixed;
+    bottom: 115px;
+    right: 13px;
+    z-index: 90;
+}
+
+/* 边框设置 */
+.right_nav ul,
+.rr {
+    border: 1px solid #f5f5f5;
+}
+
+/* 列表设置 */
+.right_nav ul li,
+.rr {
+    width: 82px;
+    height: 90px;
+    padding-top: 20px;
+    text-align: center;
+    border-bottom: 1px solid #f5f5f5;
+    box-sizing: border-box;
+    color: #757575;
+    background: #fff;
+}
+
+/* 手机app定位设置 */
+.right_nav .sj_app {
+    position: relative;
+}
+
+/* 二维码盒子设置 */
+.right_nav .ewm {
+    width: 130px;
+    height: 192px;
+    position: absolute;
+    top: 0;
+    right: 100px;
+    background: #fff;
+    border: 1px solid #f5f5f5;
+    padding: 14px;
+    display: none;
+}
+
+/* 二维码伪元素小三角 */
+.right_nav .ewm::after {
+    width: 0;
+    height: 0;
+    content: "";
+    position: absolute;
+    top: 35px;
+    right: -19px;
+    border-right: 10px solid transparent;
+    border-left: 10px solid #fff;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+}
+
+/* 二维码图片 */
+.right_nav .ewm img {
+    width: 100%;
+    margin: 6px 0;
+}
+
+.right_nav .ewm .sm {
+    padding: 0 9px;
+}
+
+/* 返回顶部间距 */
+.right_nav .rr {
+    margin-top: 15px;
+}
+
+.right_nav .rr a {
+    color: #757575;
+}
+
+.right_nav .iconfont {
+    font-size: 30px;
+}
+
+/* 鼠标悬浮设置 */
+.right_nav .sj_app:hover .ewm {
+    display: block;
+}
+
+.right_nav ul li:hover .iconfont {
+    color: #ff6700;
+}
+
+.right_nav ul li:hover p {
+    color: #ff6700;
+}
+
+.right_nav .rr:hover a {
+    color: #ff6700;
+}

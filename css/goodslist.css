@@ -1,0 +1,147 @@
+/* 商品列表 */
+.goodslist {
+    height: 460px;
+}
+
+/* 版心 */
+.goodslist .goodslist_bx {
+    height: 100%;
+    position: relative;
+}
+
+/* 图片设置 */
+.goodslist img {
+    width: 100%;
+}
+
+/* 左边列表 */
+.goodslist .goodslist_left {
+    width: 234px;
+    height: 100%;
+    background: rgba(105, 101, 101, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 11;
+}
+
+/* 左列表ul上下间距 */
+.goodslist .goodslist_left ul {
+    padding: 20px 0;
+}
+
+.goodslist .goodslist_left ul>li {
+    height: 42px;
+    line-height: 42px;
+}
+
+.goodslist .goodslist_left ul>li a {
+    color: #fff;
+    display: block;
+}
+
+/* 左列表左边间距 */
+.goodslist .goodslist_left ul>li .title {
+    padding-left: 30px;
+    font-size: 14px;
+}
+
+/* 左列表右边间距 */
+.goodslist .goodslist_left ul>li .icon-youjiantou {
+    float: right;
+    padding-right: 30px;
+}
+
+/* 鼠标悬浮背景变色 */
+.goodslist .goodslist_left ul>li:hover {
+    background: #ff6700;
+}
+
+/* 右边框设置 */
+.goodslist .goodslist_left .goodslist_right,
+.goodslist_jd {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 234px;
+    background: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, .18);
+    display: none;
+}
+
+/* 手机右框 */
+.goodslist .goodslist_left .goodslist_right {
+    width: 265px;
+}
+
+/* 家电右框 */
+.goodslist .goodslist_left .goodslist_jd {
+    width: 992px;
+}
+
+/* ul列表左浮动 */
+.goodslist .goodslist_left .goodslist_jd ul {
+    float: left;
+}
+
+/* 右边框ul上下间距 */
+.goodslist .goodslist_left .goodslist_right ul,
+.goodslist .goodslist_left .goodslist_jd ul {
+    padding: 2px 0;
+}
+
+/* 右边框列表li高度设置 */
+.goodslist .goodslist_left .goodslist_right li,
+.goodslist .goodslist_left .goodslist_jd li {
+    width: 248px;
+    height: 76px;
+    line-height: 76px;
+    font-size: 14px;
+}
+
+/* 右列表图片设置 */
+.goodslist .goodslist_left .goodslist_right img,
+.goodslist .goodslist_left .goodslist_jd img {
+    width: 40px;
+    height: 40px;
+    padding-left: 24px;
+    padding-right: 14px;
+    /* 图片居中 */
+    vertical-align: middle;
+}
+
+/* 家电右框字体盒子右浮动 */
+.goodslist .goodslist_left .goodslist_jd .jd_js {
+    float: right;
+}
+
+.goodslist .goodslist_left .goodslist_jd li .jd_txt {
+    width: 170px;
+    /* 超出部分隐藏 */
+    overflow: hidden;
+    /* 超出部分变省略号 */
+    text-overflow: ellipsis;
+    /* 不换行 */
+    white-space: nowrap;
+}
+
+.goodslist .goodslist_left .goodslist_right li a,
+.goodslist .goodslist_left .goodslist_jd li a {
+    color: #474747;
+}
+
+.goodslist .goodslist_left .goodslist_right li:hover,
+.goodslist .goodslist_left .goodslist_jd li:hover {
+    background: #fff;
+}
+
+.goodslist .goodslist_left .goodslist_right li:hover a,
+.goodslist .goodslist_left .goodslist_jd li:hover a {
+    color: #ff6700;
+}
+
+/* 鼠标悬浮右边框出现 */
+.goodslist .goodslist_left li:hover .goodslist_right,
+.goodslist .goodslist_left li:hover .goodslist_jd {
+    display: block;
+}

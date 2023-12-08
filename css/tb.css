@@ -1,0 +1,101 @@
+/* 图标及中图片区域 */
+.tb {
+    height: 208px;
+}
+
+.tb .tb_bx {
+    padding-top: 14px;
+    display: flex;
+}
+
+/* 左部分 */
+.tb .tb_left {
+    width: 234px;
+    height: 170px;
+    background: #5f5750;
+}
+
+/* 列表设置 */
+.tb .tb_left ul li {
+    width: 76px;
+    height: 80px;
+    float: left;
+    position: relative;
+    text-align: center;
+}
+
+/* 伪元素 */
+.tb_left ul li::before,
+.tb_left ul li::after {
+    display: block;
+    content: "";
+    background: #665e57;
+    position: absolute;
+}
+
+/* 竖线 */
+.tb_left ul li::before {
+    width: 1px;
+    height: 70px;
+    top: 9px;
+    left: 3px;
+}
+
+/* 横线 */
+.tb_left ul li::after {
+    width: 65px;
+    height: 1px;
+    top: 2px;
+    left: 10px;
+}
+
+
+.tb_left ul li a {
+    color: #cfcdcb;
+    display: block;
+    padding: 20px 0;
+}
+
+/* 图标大小 */
+.tb_left ul li .iconfont {
+    font-size: 24px;
+}
+
+/* 文字大小 */
+.tb_left ul li .txt {
+    font-size: 12px;
+}
+
+/* 鼠标悬浮变色 */
+.tb_left ul li:hover a {
+    color: #fff;
+}
+
+/* 右部分 */
+.tb .tb_right {
+    width: 992px;
+    height: 170px;
+    padding-left: 14px;
+}
+
+.tb .tb_right li {
+    height: 170px;
+    transition: all 0.2s linear;
+}
+
+/* 列表设置 */
+.tb .tb_right ul {
+    display: flex;
+    /* 两端对齐 */
+    justify-content: space-between;
+}
+
+/* 图片大小 */
+.tb .tb_right ul img {
+    width: 316px;
+}
+
+/* 鼠标悬浮图片有阴影 */
+.tb_right li:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}

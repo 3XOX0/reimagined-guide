@@ -1,0 +1,40 @@
+/* 手机头 */
+.sj_head {
+    height: 54px;
+    line-height: 54px;
+    padding-top: 22px;
+    background: #f5f5f5;
+}
+
+/* 左边标题 */
+.sj_head h2 {
+    font-size: 22px;
+    font-weight: 200;
+    float: left;
+    color: #333;
+}
+
+/* 右边查看更多 */
+.sj_head .sj_ck {
+    width: 98px;
+    height: 54px;
+    float: right;
+}
+
+/* 超链接设置 */
+.sj_head .sj_ck a {
+    color: #424242;
+}
+
+.sj_head .sj_ck .icon-youjiantou {
+    font-size: 20px;
+    color: #b0b0b0;
+}
+
+.sj_head .sj_ck:hover a {
+    color: #ff6700;
+}
+
+.sj_head .sj_ck:hover .icon-youjiantou {
+    color: #ff6700;
+}

@@ -1,0 +1,203 @@
+.content {
+    height: 615px;
+    background: #f5f5f5;
+}
+
+/* 左边图片 */
+.content_left img {
+    width: 234px;
+    height: 100%;
+    float: left;
+    transition: all 0.2s linear;
+}
+
+/* 左边大图浮动 */
+.content_left img:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* 右边区域 */
+.content_right {
+    height: 100%;
+}
+
+/* 列表 */
+.content_right li {
+    width: 234px;
+    height: 300px;
+    margin-left: 14px;
+    float: left;
+    background: #fff;
+    transition: all 0.2s linear;
+}
+
+/* 右边列表浮动 */
+.content_right .fu:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* 给第一行li设置底部距离 */
+.content_right .content_top {
+    margin-bottom: 14px;
+}
+
+/* 家电两行左边取消左间距 */
+.content_right .top1 {
+    margin-left: 0;
+}
+
+/* 列表超链接设置 */
+.content_right li a {
+    line-height: 20px;
+    text-align: center;
+    display: block;
+}
+
+/* 列表图片设置 */
+.content_right li img {
+    width: 160px;
+    height: 160px;
+    margin: 18px 37px;
+}
+
+/* 两行开头中图片设置 */
+.content_right li .img1 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+/* 标题 */
+.content_right li h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    margin: 0 10px 2px 10px;
+    /* 超出部分隐藏 */
+    overflow: hidden;
+    /* 超出部分变省略号 */
+    text-overflow: ellipsis;
+    /* 不换行 */
+    white-space: nowrap;
+}
+
+/* 介绍 */
+.content_right li .jsjs .js {
+    width: 214px;
+    font-size: 12px;
+    color: #b0b0b0;
+    margin: 0 10px 14px 10px;
+    /* 超出部分隐藏 */
+    overflow: hidden;
+    /* 超出部分变省略号 */
+    text-overflow: ellipsis;
+    /* 不换行 */
+    white-space: nowrap;
+}
+
+/* 价格 */
+.content_right li .price {
+    font-size: 14px;
+    color: #ff6700;
+}
+
+/* 高价格划掉 */
+.content_right li .price_tall {
+    font-size: 14px;
+    color: #b0b0b0;
+    margin-left: 7px;
+    /* 划掉字效果 */
+    text-decoration: line-through;
+}
+
+/* 右下角两小块区域 */
+.content_right .down {
+    background: #f5f5f5;
+}
+
+/* 右下角上部分区域 */
+.content_right .right_top {
+    width: 234px;
+    height: 144px;
+    float: right;
+    background: #fff;
+    margin-bottom: 14px;
+    position: relative;
+    transition: all 0.2s linear;
+}
+
+/* 右下角上部分浮动 */
+.content_right .right_top:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* 右下上部分标题 */
+.content_right .right_top h2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+    width: 94px;
+    text-align: left;
+    margin: 40px 110px 5px 30px;
+}
+
+/* 右下上部分价格 */
+.content_right .right_top p {
+    font-size: 14px;
+    color: #ff6700;
+    text-align: left;
+    padding-left: 30px;
+}
+
+/* 右下上部分图片 */
+.content_right .right_top img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 15px;
+    left: 100px;
+}
+
+/* 右下角下部分区域 */
+.content_right .right_down {
+    width: 234px;
+    height: 144px;
+    float: right;
+    background: #fff;
+    position: relative;
+    transition: all 0.2s linear;
+}
+
+/* 右下角下部分浮动 */
+.content_right .right_down:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* 右下下部分大字 */
+.content_right .right_down h3 {
+    font-size: 18px;
+    width: 94px;
+    text-align: left;
+    margin: 55px 110px 5px 30px;
+}
+
+/* 右下下部分小字 */
+.content_right .right_down p {
+    font-size: 12px;
+    text-align: left;
+    padding-left: 30px;
+    color: #333;
+}
+
+/* 右箭头图标 */
+.content_right .right_down .icon-forwardo {
+    font-size: 57px;
+    color: #ff6700;
+    position: absolute;
+    top: 65px;
+    left: 145px;
+}

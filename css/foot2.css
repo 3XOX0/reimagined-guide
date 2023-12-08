@@ -1,0 +1,89 @@
+/* 最底部部分 */
+.foot2 {
+    height: 265px;
+    background: #fafafa;
+}
+
+/* 左边logo */
+.foot2 .foot2_left {
+    width: 56px;
+    height: 100%;
+    float: left;
+    background: url(../imgs/logo.png) no-repeat center 30px/56px 56px;
+}
+
+/* 右边区域 */
+.foot2 .foot2_right {
+    width: 900px;
+    height: 100%;
+    line-height: 18px;
+    margin-left: 86px;
+    font-size: 12px;
+    color: #b0b0b0;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 第一、第二行文字设置 */
+.foot2_right .nav_down {
+    margin-top: 34px;
+}
+
+.foot2_right .foot2_nav {
+    float: left;
+}
+
+.foot2_right .foot2_nav li {
+    float: left;
+}
+
+.foot2_right .foot2_nav li a {
+    display: inline-block;
+    color: #757575;
+}
+
+.foot2_right .foot2_nav li span {
+    padding: 0 2px;
+    color: #b0b0b0;
+}
+
+/* 鼠标悬浮字体变色 */
+.foot2_right .foot2_nav li:hover a {
+    color: #ff6700;
+}
+
+/* 第三到第六行文字 */
+.foot2_right p {
+    float: left;
+}
+
+.foot2_right p a {
+    color: #b0b0b0;
+}
+
+/* 鼠标悬浮字体变色 */
+.foot2_right p a:hover {
+    color: #ff6700;
+}
+
+/* 底部图片 */
+.foot2_right .foot2_photo {
+    width: 100%;
+    height: 28px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+
+/* 底部图片设置 */
+.foot2_right .foot2_photo img {
+    height: 28px;
+}
+
+.foot2_right .last {
+    margin-top: 230px;
+    margin-left: 80px;
+    width: 100%;
+    height: 19px;
+    background: url(../imgs/last.png) no-repeat center 0;
+}

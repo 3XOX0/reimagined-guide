@@ -1,0 +1,210 @@
+/* logo导航处 */
+.logo {
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    z-index: 88;
+}
+
+/* logo左边 */
+.logo .logo_left {
+    width: 56px;
+    height: 100%;
+    float: left;
+    background: url(../imgs/logo.png) no-repeat center/56px 56px;
+    margin-right: 177px;
+}
+
+/* logo中间 */
+.logo .logo_content {
+    width: 660px;
+    height: 100%;
+    float: left;
+}
+
+/* logo中间列表 */
+.logo .logo_content ul>li {
+    float: left;
+}
+
+/* logo列表超链接设置 */
+.logo .logo_content ul>li a {
+    padding: 0 11px;
+    color: #000;
+    display: block;
+}
+
+/* 鼠标悬浮字体变色 */
+.logo .logo_content ul>li a:hover {
+    color: #ff6700;
+}
+
+/* 下拉列表 */
+.logo_content .content_list {
+    width: 100%;
+    height: 240px;
+    line-height: 20px;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background: #fff;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+    display: none;
+}
+
+/* 下拉列表版心 */
+.logo_content .content_list .content_list_bx {
+    width: 1227px;
+    height: 100%;
+    margin: auto;
+    /* 弹性布局 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 下拉列表文字居中 */
+.logo_content .content_list_bx li {
+    text-align: center;
+}
+
+/* 下拉列表伪元素定位 */
+.logo_content .content_list_bx .list_wei {
+    position: relative;
+}
+
+/* 下拉列表伪元素设置 */
+.logo_content .content_list_bx .list_wei::after {
+    width: 1px;
+    height: 100px;
+    display: block;
+    content: "";
+    background: #e0e0e0;
+    position: absolute;
+    top: 25px;
+    left: 0;
+}
+
+/* 下拉列表图片设置 */
+.logo_content .content_list_bx li img {
+    width: 160px;
+    height: 110px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+
+/* 下拉列表标题 */
+.logo_content .content_list_bx li h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+}
+
+/* 下拉列表价格 */
+.logo_content .content_list_bx li .price {
+    font-size: 12px;
+    color: #ff6700;
+}
+
+/* 鼠标悬浮下拉列表出现 */
+.logo_content ul>li:hover .content_list {
+    display: block;
+}
+
+/* logo右边 */
+.logo .logo_right {
+    width: 297px;
+    height: 100%;
+    float: right;
+    position: relative;
+}
+
+/* 输入框 */
+.logo_right .logo_ss .logo_input {
+    width: 247px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    /* 怪异盒模型，边框不计 */
+    box-sizing: border-box;
+    float: left;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+
+/* 输入框的下边 */
+.logo_right .logo_ss .ss {
+    width: 247px;
+    height: 240px;
+    display: none;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    background: #fff;
+    /* 怪异盒模型 */
+    box-sizing: border-box;
+}
+
+/* 输入框下边列表 */
+.logo_right .logo_ss .ss li {
+    line-height: 30px;
+    text-align: left;
+}
+
+/* 列表超链接设置 */
+.logo_right .logo_ss .ss li a {
+    font-size: 12px;
+    color: #000;
+    display: block;
+    padding-left: 18px;
+}
+
+/* 显示输入框下边 */
+.logo_right .logo_ss:hover .ss {
+    border: 1px solid #ff6700;
+    display: block;
+}
+
+/* 鼠标悬浮输入边框变色 */
+.logo_right .logo_ss:hover .logo_input {
+    border: 1px solid #ff6700;
+}
+
+/* 鼠标悬浮列表背景变色 */
+.logo_right .logo_ss .ss li:hover a {
+    background: #fafafa;
+}
+
+/* 搜索框 */
+.logo_right .logo_button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    float: left;
+    margin-top: 25px;
+    box-sizing: border-box;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* 搜索图标设置 */
+.logo_right .logo_button .icon-sousuo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* 鼠标悬浮搜索背景变色 */
+.logo_right .logo_button:hover {
+    background: #ff6700;
+}
+
+/* 鼠标悬浮搜索图标变色 */
+.logo_right .logo_button:hover .icon-sousuo {
+    color: #fff;
+}
+
+/* 鼠标悬浮搜索边框变色 */
+.logo_right .logo_ss:hover .logo_button {
+    border: 1px solid #ff6700;
+    box-sizing: border-box;
+}

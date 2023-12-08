@@ -1,0 +1,37 @@
+/* 区域头头 */
+.head {
+    height: 54px;
+    line-height: 54px;
+    padding-top: 26px;
+    background: #f5f5f5;
+}
+
+/* 左边标题 */
+.head h2 {
+    font-size: 22px;
+    font-weight: 200;
+    float: left;
+    color: #333;
+}
+
+/* 右边列表 */
+.head .head_right li {
+    height: 35px;
+    line-height: 45px;
+    float: right;
+    margin-left: 30px;
+}
+
+/* 超链接设置 */
+.head .head_right a {
+    color: #424242;
+}
+
+/* 鼠标悬浮设置 */
+.head .head_right li:hover {
+    border-bottom: 2px solid #ff6700;
+}
+
+.head .head_right a:hover {
+    color: #ff6700;
+}

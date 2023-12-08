@@ -1,0 +1,20 @@
+/* 大图设置 */
+.big1 {
+    height: 146px;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+
+.big2 {
+    height: 172px;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+
+.big1 img,
+.big2 img {
+    width: 100%;
+    margin-top: 26px;
+    margin-bottom: 26px;
+    display: block;
+}
